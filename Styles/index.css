@@ -58,3 +58,89 @@ body {
     background-color: #8FFF55;
     color: #050709;
 }
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #050709;
+}
+
+
+/* Header Styles */
+
+header {
+    display: flex;
+    align-items: flex-end;
+    margin: 2% 0;
+    /* border: 2px solid black; */
+}
+header img{
+    width: 15%;
+    margin: 0 1%;
+}
+header h1 {
+    font-size: 2.7rem;
+    /* border: 2px solid black; */
+    width: 65%;
+}
+header nav {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+header nav a {
+    font-size: 2rem;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #bb671c;
+    padding: .5% 2%;
+    border-radius: 5px;
+}
+
+/* Landing img Styles */
+
+.landing-img {
+    width: 100%;
+    background-image: url("\Assets\Field of Weed.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+/* Information section styles */
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.information div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #48B72A;
+    padding: 2% 0;
+    /* border: 2px solid black; */
+}
+.information div:first-child {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.information div:nth-child(2) {
+    border-bottom: 2px solid black;
+}
+.information div:nth-child(3) {
+    border-right: 2px solid black;;
+}
+.information div img {
+    width: 50%;
+    height: 30vh;
+    margin-bottom: 3%;
+}
+.information p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 1%;
+}
