@@ -144,3 +144,62 @@ header nav a {
     text-align: center;
     padding: 0 1%;
 }
+
+/* More information section styling */
+
+.more-information {
+    width: 98%;
+    margin: 2% auto;
+    padding: 1%;
+    border: 2px solid #551700;
+    background-color: #48B72A;
+}
+.more-information p {
+    font-size: 2rem;
+}
+
+/* Footer styling */
+
+footer p {
+    text-align: center;
+}
+footer .copy {
+    font-size: 1.8rem;
+    margin: 5%;
+}
+footer .footer-info {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+footer .footer-info div {
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 1%;
+    background-color: #48B72A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer .footer-info div h2 {
+    font-size: 2.2rem;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #9a12b3;
+}
+footer .contact p{
+    margin: 11% 0;
+}
+footer .mission p {
+    margin-top: 4%;
+}
+footer a {
+    font-size: 2rem;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #e07148;
+    padding: .5% 2%;
+    border-radius: 5px;
+}
