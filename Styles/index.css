@@ -101,7 +101,7 @@ header nav a {
 
 .landing-img {
     width: 100%;
-    background-image: url("\Assets\Field of Weed.jpg");
+    background-image: url("../Assets/Field\ of\ Weed.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 50vh;
