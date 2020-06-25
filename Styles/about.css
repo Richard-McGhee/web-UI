@@ -1,0 +1,25 @@
+.landing h1 {
+    font-size: 6rem;
+    text-shadow: 2px 2px white;
+}
+
+#footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.landing {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Assets/Field\ of\ Weed.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
