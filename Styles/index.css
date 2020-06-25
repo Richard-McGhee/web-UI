@@ -222,6 +222,19 @@ footer a {
 
 /* Tablet Break */
 
+@media(max-width: 620px) {
+	header h1 {
+		font-size: 1.7rem;
+		/* border: 2px solid black; */
+		/* width: 40%; */
+	}
+
+	header nav a {
+		font-size: 1.7rem;
+		width: 100px;
+	}
+}
+
 /* Mobile Break */
 
 @media(max-width: 420px) {
