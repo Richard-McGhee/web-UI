@@ -217,3 +217,45 @@ footer a {
     padding: .5% 2%;
     border-radius: 5px;
 }
+
+/* Media Queries */
+
+/* Tablet Break */
+
+/* Mobile Break */
+
+@media(max-width: 420px) {
+	header h1 {
+		font-size: 1.7rem;
+		/* border: 2px solid black; */
+		/* width: 40%; */
+	}
+
+	header nav a {
+		font-size: 1.2rem;
+		width: 80px;
+	}
+
+	.information div {
+		width: 100%;
+	}
+
+	.footer-info {
+		flex-direction: column;
+	}
+
+	.footer-info .about {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.footer-info .mission {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.footer-info .contact {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
